@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess The Number</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css"
+          rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>Contact Application</h1>
+    <hr/>
+    <ul class="list-group" id="errorMessages"></ul>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div id="contactTableDiv">
+                <h2>Games</h2>
+                <button type="button" class="btn btn-primary btn-block" id="new-game">Start a New Game</button>
+                <br/>
+                <table id="contactTable" class="table table-hover">
+                    <tr>
+                        <th width="25%">ID</th>
+                        <th width="25%">Answer</th>
+                        <th width="25%">Outcome</th>
+                        <th width="25%"></th>
+                    </tr>
+
+                    <tbody id="contentRows"></tbody>
+                </table>
+            </div>
+
+
+        </div>
+        <div class="col-md-6">
+            <h2 id="game-header">Game #<span id="current-game"></span></h2>
+            <div class="input-group">
+
+                <input type="text" class="form-control" required pattern="[0-9]{4}" id="guess-input" placeholder="Type guess here!">
+                <span class="input-group-btn">
+                    <button class="btn btn-default btn-secondary" type="button" id="add-guess">Add Guess!</button>
+                </span>
+            </div>
+            <button type="button" class="btn btn-danger btn-block " id="guess-for-me">Guess for me! </button>
+            <button type="button" class="btn  btn-danger btn-block" id="play-for-me">Play for me!</button>
+            <br/>
+            <h2 id="round-header">Rounds</h2>
+            <table id="round-table" class="table table-hover">
+                <tr>
+                    <th width="15%">Round</th>
+                    <th width="25%">Guess</th>
+                    <th width="30%">Result</th>
+                    <th width="30%">Time</th>
+                </tr>
+
+                <tbody id="round-rows"></tbody>
+            </table>
+        </div> <!-- End col div -->
+    </div> <!-- End row div -->
+</div>
+
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/guessingGame.js"></script>
+</body>
+</html>
