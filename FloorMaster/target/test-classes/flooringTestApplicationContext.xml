@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation=
+        "http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/mvc
+         http://www.springframework.org/schema/mvc/spring-mvc.xsd
+         http://www.springframework.org/schema/tx
+         http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/aop
+         http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+ 
+    <!-- Bean definitions go here -->
+ 
+   
+    <bean id="oDaoStub" 
+          class="com.karlmarxindustries.flooring.service.FlooringODaoStubImpl">
+        <constructor-arg ref="testOrderOne"/>
+        <constructor-arg ref="testOrderTwo"/>
+        <constructor-arg ref="testOrderThree"/>
+    </bean>
+        
+   
+    <bean id="testOrderOne" class="com.karlmarxindustries.flooring.dto.Order">
+        <constructor-arg name="date">
+            <bean class="java.time.LocalDate" factory-method="parse">
+                <constructor-arg value="2020-12-20"/>
+            </bean>
+        </constructor-arg>
+        <constructor-arg value="Jon Hodgman"/>
+        <constructor-arg value="KY"/>
+        <constructor-arg name="area">
+            <bean  class="java.math.BigDecimal"> <!-- is this okay with no factory-method? -->
+                <constructor-arg value="123.45"/>
+            </bean>
+        </constructor-arg>
+        <constructor-arg value="Tile"/>
+        <property name="orderNumber" value="1"/>
+    </bean>
+    
+    <bean id="testOrderTwo" class="com.karlmarxindustries.flooring.dto.Order">
+        <constructor-arg name="date">
+            <bean class="java.time.LocalDate" factory-method="parse">
+                <constructor-arg value="2020-12-20"/>
+            </bean>
+        </constructor-arg>
+        <constructor-arg value="Haruki Murakami"/>
+        <constructor-arg value="TX"/>
+        <constructor-arg name="area">
+            <bean  class="java.math.BigDecimal"> <!-- is this okay with no factory-method? -->
+                <constructor-arg value="324.23"/>
+            </bean>
+        </constructor-arg>
+        <constructor-arg value="Wood"/>
+        <property name="orderNumber" value="2"/>
+    </bean>
+    
+    <bean id="testOrderThree" class="com.karlmarxindustries.flooring.dto.Order">
+        <constructor-arg name="date">
+            <bean class="java.time.LocalDate" factory-method="parse">
+                <constructor-arg value="2020-12-31"/>
+            </bean>
+        </constructor-arg>
+        <constructor-arg value="Friedrich Engels"/>
+        <constructor-arg value="TX"/>
+        <constructor-arg name="area">
+            <bean  class="java.math.BigDecimal"> <!-- is this okay with no factory-method? -->
+                <constructor-arg value="100.01"/>
+            </bean>
+        </constructor-arg>
+        <constructor-arg value="Wood"/>
+        <property name="orderNumber" value="7"/>
+    </bean>
+ 
+   <bean id="lDaoStub" class="com.karlmarxindustries.flooring.service.FlooringLDaoStubImpl"/>
+    <bean id="pDaoStub" 
+          class="com.karlmarxindustries.flooring.service.FlooringPDaoStubImpl">
+        <constructor-arg ref="testProductOne"/>
+        <constructor-arg ref="testProductTwo"/>
+    </bean>
+    
+    <bean id="testProductOne" class="com.karlmarxindustries.flooring.dto.Product">
+        <constructor-arg value="Wood"/>
+        <constructor-arg >
+            <bean  class="java.math.BigDecimal"> 
+                <constructor-arg value="8.01"/>
+            </bean>
+        </constructor-arg>
+        <constructor-arg >
+            <bean  class="java.math.BigDecimal"> 
+                <constructor-arg value="10.01"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <bean id="testProductTwo" class="com.karlmarxindustries.flooring.dto.Product">
+        <constructor-arg value="Tile"/>
+        <constructor-arg >
+            <bean  class="java.math.BigDecimal"> 
+                <constructor-arg value="1.01"/>
+            </bean>
+        </constructor-arg>
+        <constructor-arg >
+            <bean  class="java.math.BigDecimal"> 
+                <constructor-arg value="11.01"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="tDaoStub" 
+          class="com.karlmarxindustries.flooring.service.FlooringTDaoStubImpl">
+        <constructor-arg ref="testTaxOne"/>
+        <constructor-arg ref="testTaxTwo"/>
+    </bean>
+    
+    <bean id="testTaxOne" class="com.karlmarxindustries.flooring.dto.Tax">
+        <constructor-arg value="KY"/>
+        <constructor-arg value="Kentucky"/>
+        <constructor-arg name="taxRate">
+            <bean  class="java.math.BigDecimal"> 
+                <constructor-arg value="12.02"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <bean id="testTaxTwo" class="com.karlmarxindustries.flooring.dto.Tax">
+        <constructor-arg value="TX"/>
+        <constructor-arg value="Texas"/>
+        <constructor-arg name="taxRate">
+            <bean  class="java.math.BigDecimal"> 
+                <constructor-arg value="5.05"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+   
+    
+    
+    <bean id="oDao" class="com.karlmarxindustries.flooring.dao.FlooringOrderDaoImpl"/>
+    <bean id="tDao" class="com.karlmarxindustries.flooring.dao.FlooringTaxDaoImpl"/>
+    <bean id="pDao" class="com.karlmarxindustries.flooring.dao.FlooringProductDaoImpl"/>
+   
+    <bean id="serviceLayer" 
+          class="com.karlmarxindustries.flooring.service.FlooringServiceLayerImpl">
+        <constructor-arg ref="tDaoStub"/>
+        <constructor-arg ref="oDaoStub"/> 
+        <constructor-arg ref="pDaoStub"/>     
+        <constructor-arg ref="lDaoStub"/>      
+    </bean>
+   
+</beans>

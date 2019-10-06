@@ -1,0 +1,6 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+16,Ada Lovelace,KY,6.00,Sheet Plastic,212.00,2.00,0.50,424.00,106.00,31.80,561.80
+17,Ruth Bader Ginsburg,CA,25.00,Reclaimed Wood,215.00,0.50,49.99,107.50,10747.85,2713.84,13569.19
+18,Oprah Winfrey,OK,4.45,Tile,84.00,15.00,25.00,1260.00,2100.00,134.40,3494.40
+19,Albert Einstein,CA,25.00,Carpet,221.00,10.00,15.50,2210.00,3425.50,1408.88,7044.38
+20,Jean Luc Picard,MS,2.25,Sheet Plastic,308.00,2.00,0.50,616.00,154.00,15.40,785.40

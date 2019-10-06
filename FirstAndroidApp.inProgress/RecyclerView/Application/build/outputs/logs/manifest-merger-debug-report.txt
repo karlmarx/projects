@@ -1,0 +1,158 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:18:1-40:12
+MERGED from [com.android.support:support-v13:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/b06b998a08ed08cea9458db05f0a03b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1c5fb9c06cd4225e0d68ccbd7e5db305/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/932b0d057b205257be07cb9fcb22aa16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1707c056752b5eccbb319c8bd6b33fc4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/712541a4817a3a778794f0724fe5fd10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/5f70ca5f8aa94648141e748456ad32b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/dcebaa485abfea067a368e191c65a38b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/aa52c8a5688baee41e130e6110a4983d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/a92186a6cfcdb4100aaac6bfe094c542/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/5c55639235e9b56f5ee76e464ab07113/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/5ce03e668a65ea9922651d493f90e846/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/18ebe13239198fd34f449dca0b4ad139/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/f89c3cb15595b4144af7f003a81d6b10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1d518526006e4ec44b71b0f00669f7e6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/fb2459ebec63c8637dd4edb2fb9d55e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/afcb2cc2066597db4456abc1d43944e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/30dbbbcb6545b7dc2c68a9954cf54214/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/c51e9a2182c37f03680c8c7389748cdf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/09c59ca71fa06c76dd9e6c18ea1ccf9f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/e7c3eb5f62a4e9b2c4b1a39545236069/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/fa42eb81ea4bc73114a4d2b75c3e594f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1aea748a59d630d6e8fdf37ee6bf322d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/cff805f485327df8386e4886d7604629/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/8e8569ae006dedeffbe3b299984405d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/d7496f092ed12d48a83a6327de7620f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/7d118d28729eb2b4e4e602c56206f53f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/4cb933555ac540fe6456c2bf2def6313/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/22f42d105fc1591100cc7dd5b76a9f2c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/a0685213a304efadec6d23d61bd8596e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/72055b305dba9904586ac7b727a487db/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/0400b3f53368856a8efe7c55cb803019/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:18:1-40:12
+	package
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:19:5-47
+	android:versionName
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:21:5-30
+		INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:18:11-69
+	android:versionCode
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:20:5-28
+		INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+application
+ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:25:5-37:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/e7c3eb5f62a4e9b2c4b1a39545236069/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/e7c3eb5f62a4e9b2c4b1a39545236069/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/fa42eb81ea4bc73114a4d2b75c3e594f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/fa42eb81ea4bc73114a4d2b75c3e594f/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/e7c3eb5f62a4e9b2c4b1a39545236069/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:26:9-41
+	android:icon
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:27:9-45
+	android:allowBackup
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:25:18-44
+	android:theme
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:28:9-40
+activity#com.example.android.recyclerview.MainActivity
+ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:30:9-36:20
+	android:label
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:31:19-51
+	android:name
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:30:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/b06b998a08ed08cea9458db05f0a03b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/b06b998a08ed08cea9458db05f0a03b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1c5fb9c06cd4225e0d68ccbd7e5db305/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1c5fb9c06cd4225e0d68ccbd7e5db305/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/932b0d057b205257be07cb9fcb22aa16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/932b0d057b205257be07cb9fcb22aa16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1707c056752b5eccbb319c8bd6b33fc4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1707c056752b5eccbb319c8bd6b33fc4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/712541a4817a3a778794f0724fe5fd10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/712541a4817a3a778794f0724fe5fd10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/5f70ca5f8aa94648141e748456ad32b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/5f70ca5f8aa94648141e748456ad32b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/dcebaa485abfea067a368e191c65a38b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/dcebaa485abfea067a368e191c65a38b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/aa52c8a5688baee41e130e6110a4983d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/aa52c8a5688baee41e130e6110a4983d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/a92186a6cfcdb4100aaac6bfe094c542/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/a92186a6cfcdb4100aaac6bfe094c542/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/5c55639235e9b56f5ee76e464ab07113/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/5c55639235e9b56f5ee76e464ab07113/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/5ce03e668a65ea9922651d493f90e846/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/5ce03e668a65ea9922651d493f90e846/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/18ebe13239198fd34f449dca0b4ad139/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/18ebe13239198fd34f449dca0b4ad139/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/f89c3cb15595b4144af7f003a81d6b10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/f89c3cb15595b4144af7f003a81d6b10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1d518526006e4ec44b71b0f00669f7e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1d518526006e4ec44b71b0f00669f7e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/fb2459ebec63c8637dd4edb2fb9d55e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/fb2459ebec63c8637dd4edb2fb9d55e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/afcb2cc2066597db4456abc1d43944e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/afcb2cc2066597db4456abc1d43944e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/30dbbbcb6545b7dc2c68a9954cf54214/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/30dbbbcb6545b7dc2c68a9954cf54214/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/c51e9a2182c37f03680c8c7389748cdf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/c51e9a2182c37f03680c8c7389748cdf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/09c59ca71fa06c76dd9e6c18ea1ccf9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/09c59ca71fa06c76dd9e6c18ea1ccf9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/e7c3eb5f62a4e9b2c4b1a39545236069/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/e7c3eb5f62a4e9b2c4b1a39545236069/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/fa42eb81ea4bc73114a4d2b75c3e594f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/fa42eb81ea4bc73114a4d2b75c3e594f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1aea748a59d630d6e8fdf37ee6bf322d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/1aea748a59d630d6e8fdf37ee6bf322d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/cff805f485327df8386e4886d7604629/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/cff805f485327df8386e4886d7604629/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/8e8569ae006dedeffbe3b299984405d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/8e8569ae006dedeffbe3b299984405d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/d7496f092ed12d48a83a6327de7620f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/d7496f092ed12d48a83a6327de7620f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/7d118d28729eb2b4e4e602c56206f53f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/7d118d28729eb2b4e4e602c56206f53f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/4cb933555ac540fe6456c2bf2def6313/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/4cb933555ac540fe6456c2bf2def6313/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/22f42d105fc1591100cc7dd5b76a9f2c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/22f42d105fc1591100cc7dd5b76a9f2c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/a0685213a304efadec6d23d61bd8596e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/a0685213a304efadec6d23d61bd8596e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/72055b305dba9904586ac7b727a487db/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/72055b305dba9904586ac7b727a487db/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/0400b3f53368856a8efe7c55cb803019/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/karlmarx/.gradle/caches/transforms-2/files-2.1/0400b3f53368856a8efe7c55cb803019/AndroidManifest.xml:20:5-44
+INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/karlmarx/Desktop/repos/projects/RecyclerView/Application/src/main/AndroidManifest.xml

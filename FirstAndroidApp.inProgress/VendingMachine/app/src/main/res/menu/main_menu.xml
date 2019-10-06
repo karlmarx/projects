@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/insert_money"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="insert money">
+        <menu>
+            <item
+                android:id="@+id/quarter"
+                android:title="quarter" />
+            <item
+                android:id="@+id/nickel"
+                android:title="nickel" />
+            <item
+                android:id="@+id/dime"
+                android:title="dime" />
+            <item
+                android:id="@+id/dollar"
+                android:title="dollar" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/show_balance"
+        android:title="show balance" />
+    <item
+        android:id="@+id/return_change"
+        android:checkable="false"
+        android:title="return change" />
+    <item
+        android:id="@+id/purchase_item"
+        android:title="purchase item" />
+</menu>

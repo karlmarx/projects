@@ -1,0 +1,13 @@
+com/karlmarxindustries/TestApplicationConfiguration.class
+com/karlmarxindustries/App.class
+com/karlmarxindustries/dao/GameDaoImpl.class
+com/karlmarxindustries/dto/Game.class
+com/karlmarxindustries/dao/RoundDaoImpl$RoundMapper.class
+com/karlmarxindustries/dao/RoundDaoImpl.class
+com/karlmarxindustries/controller/GuessController.class
+com/karlmarxindustries/service/GuessService.class
+com/karlmarxindustries/dto/Round.class
+com/karlmarxindustries/dao/GameDao.class
+com/karlmarxindustries/service/GuessService$1.class
+com/karlmarxindustries/dao/GameDaoImpl$GameMapper.class
+com/karlmarxindustries/dao/RoundDao.class

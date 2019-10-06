@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+3,Bob Einstein,KY,6.00,Carpet,200.0,2.25,2.10,450.00,420.00,5220.00,6090.00,

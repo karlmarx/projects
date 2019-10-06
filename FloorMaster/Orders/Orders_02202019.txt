@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+12,Ada Lovelace,MS,2.25,Reclaimed Wood,211.00,0.50,49.99,105.50,10547.89,213.07,10866.46

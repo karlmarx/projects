@@ -1,0 +1,5 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+8,Doctor Who,KY,6.00,Carpet,218.00,10.00,15.50,2180.00,3379.00,333.54,5892.54
+9,Albert Einstein,TX,4.45,Carpet,381.00,10.00,15.50,3810.00,5905.50,388.62,10104.12
+10,Albert Einstein,MS,2.25,Linoleum,236.00,7.50,5.00,1770.00,1180.00,59.00,3009.00
+11,Oprah Winfrey,CA,25.00,Carpet,125.00,10.00,15.50,1250.00,1937.50,796.88,3984.38

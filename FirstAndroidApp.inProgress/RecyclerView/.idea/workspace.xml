@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="255ad90a-5c0c-4471-94ed-f384a84edad5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong copy/app/src/main/res/menu/vending_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/androidTest/java/com/example/itemscodealong/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/java/com/example/itemscodealong/JsonPlaceHolderApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/java/com/example/itemscodealong/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/java/com/example/itemscodealong/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/app/src/test/java/com/example/itemscodealong/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemsCodeAlong/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/java/com/example/vendingmachine/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/java/com/example/vendingmachine/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/java/com/example/vendingmachine/VendingMachineApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/java/com/example/vendingmachine/dummy/DummyContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/app/src/test/java/com/example/vendingmachine/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__com_itkacher_okhttpprofiler_okhttpprofiler_1_0_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_6_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_6_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/src/main/java/com/example/AjaxChaosServiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/src/main/java/com/example/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/src/main/java/com/example/AnimalBasicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/src/main/java/com/example/AnimalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/src/main/java/com/example/firstapp/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/src/main/java/com/example/firstapp/SecondActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/ApplicationMoved/app/src/main/res/layout/activity_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/androidTest/java/com/example/tmdbrestclient/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/java/com/example/tmdbrestclient/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/app/src/test/java/com/example/tmdbrestclient/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstAndroidApp/TMDBrestclient/settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/recyclerview/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-972">
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#4060#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/recyclerview/RecyclerViewFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-640">
+              <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#6089#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/recyclerview/CustomAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1311">
+              <folding>
+                <element signature="e#0#3320#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/common/activities/SampleActivityBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-730">
+              <folding>
+                <element signature="e#0#1615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshots/1-linear.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshots/2-grid.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshots/icon-web.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="80" />
+    <option name="y" value="23" />
+    <option name="width" value="1360" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name=".google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="logger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="recyclerview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RecyclerView" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="255ad90a-5c0c-4471-94ed-f384a84edad5" name="Default Changelist" comment="" />
+      <created>1570302121370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570302121370</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="80" y="23" width="1360" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32928678" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="OkHttp Profiler" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/recyclerview/RecyclerViewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#6089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/recyclerview/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#4060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/recyclerview/CustomAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311">
+          <folding>
+            <element signature="e#0#3320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/common/activities/SampleActivityBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-730">
+          <folding>
+            <element signature="e#0#1615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/1-linear.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/2-grid.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/icon-web.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

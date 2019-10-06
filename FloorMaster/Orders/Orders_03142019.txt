@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+23,Bob,OK,4.45,Linoleum,201.00,7.50,5.00,1507.50,1005.00,100.50,2613.00
+24,Doctor Who,CA,25.00,Bamboo,339.00,35.00,12.50,11865.00,4237.50,4025.62,20128.12
+25,Jean Luc Picard,KY,6.00,Linoleum,189.00,7.50,5.00,1417.50,945.00,141.75,2504.25

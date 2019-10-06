@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+2,Bob,MS,2.25,Carpet,237.00,10.00,15.50,2370.00,3673.50,120.87,6164.37

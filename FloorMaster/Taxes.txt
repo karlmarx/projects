@@ -1,0 +1,6 @@
+StateAbbreviation,StateName,TaxRate
+OK,Oklahoma,4.45
+MS,Mississppi,2.25
+KY,Kentucky,6.00
+TX,Texas,4.45
+CA,California,25.00

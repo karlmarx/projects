@@ -1,0 +1,5 @@
+StateAbbreviation,StateName,TaxRate
+KS,Kaohsiung,4.45
+MB,Manitoba,9.25
+KY,Kentucky,6.00
+PR,Puerto Rico,25.00

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vending Machine</title>
+    <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="http://www.karlmarxindustries.com/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a17493c78.js" crossorigin="anonymous"></script>
+    <meta name="theme-color" content="#fafafa">
+    <script src="https://kit.fontawesome.com/2a17493c78.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+
+
+
+            <h1 id="title-text">Vending Machine</h1>
+
+    <hr/>
+
+    <div class="container" id="big-one">
+        <div class="row">
+            <div class="col-md m-1 input-clearer slot" id="slot1">
+               <div style="text-align: left;" id="number-1">1</div>
+                <div id="item-name1">Item 1</div>
+
+                <div class="price" id="item-price1">$XX.XX</div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity1">123</span>
+
+                <br>
+            </div>
+            <div class="col-md m-1 input-clearer slot" id="slot2">
+                <div style="text-align: left;" id="number-2">2</div>
+                <div id="item-name2">Item 2</div>
+
+                <div class="price" id="item-price2">$XX.XX</div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity2">123</span>
+
+                <br>
+            </div>
+            <div class="col-md m-1 input-clearer slot" id="slot3">
+                <div style="text-align: left;" id="number-3">3</div>
+                <div id="item-name3">Item 3</div>
+
+                <div class="price" id="item-price3">$XX.XX</div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity3">123</span>
+
+                <br>
+            </div>
+            <div class="col-md border-bottom p-3 input-clearer" id="money-in">
+                <div class="container-fluid" id="money-in-container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 id="total-money-in">Total $ In</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">$</span>
+                                </div>
+                                <input type="text" class="form-control text-center" aria-label="Amount" id="money-text" readonly value="0.00">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md m-1">
+                            <button type="button" class="btn btn-secondary btn-sm justify-content-center input-clearer" id="dollar">Add Dollar</button>
+                        </div>
+                        <div class="col-md m-1">
+                            <button type="button" class="btn btn-secondary btn-sm justify-content-center input-clearer" id="quarter">Add Quarter</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md  m-1">
+                            <button type="button" class="btn btn-secondary btn-sm justify-content-center input-clearer" id="dime">Add Dime</button>
+                        </div>
+                        <div class="col-md m-1">
+                            <button type="button" class="btn btn-secondary btn-sm justify-content-center input-clearer" id="nickel">Add Nickel</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md  slot m-1 slot input-clearer slot" id="slot4">
+                <div style="text-align: left;" id="number-4">4</div>
+                <div id="item-name4">Item 3</div>
+
+                <div id="item-price4" class="price" >$XX.XX</div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity4">123</span>
+
+                <br>
+            </div>
+            <div class="col-md slot m-1 input-clearer slot" id="slot5">
+                <div style="text-align: left;" id="number-5">5</div>
+                <div id="item-name5">Item 3</div>
+
+                <div id="item-price5" class="price" >$XX.XX</div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity5">123</span>
+
+                <br>
+            </div>
+            <div class="col-md slot m-1 input-clearer slot" id="slot6">
+                <div style="text-align: left;" id="number-6">6</div>
+                <div id="item-name6"  >Item 3</div>
+
+                <div id="item-price6" class="price">$XX.XX</div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity6">123</span>
+
+                <br>
+            </div>
+            <div class="col-md border-bottom p-3" id="messages">
+                <h3 id="message-header">Messages</h3><br>
+
+                <textarea class="form-control" type="text" value="Messages" rows="2" readonly id="message-text">Messages</textarea><br>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="item-colon">Item: </span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Amount" id="item-text" readonly value="">
+
+                </div>
+
+
+                <button type="button" class="btn btn-secondary btn-sm justify-content-center" id="make-purchase">Make Purchase</button>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md m-1 slot" id="slot7">
+                <div style="text-align: left;" id="number-7">7</div>
+                <div id="item-name7">Item 7</div>
+
+                <div id="item-price7" class="price">$XX.XX</div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity7">123</span>
+
+                <br>
+            </div>
+            <div class="col-md slot m-1" id="slot8">
+                <div style="text-align: left;" id="number-8">8</div>
+                <div id="item-name8">Item 8</div>
+
+                <div id="item-price8" class="price">$XX.XX</div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity8">123</span>
+
+                <br>
+            </div>
+            <div class="col-md slot m-1" id="slot9">
+                <div style="text-align: left;" id="number-9"></div>
+                <div id="item-name9"></div>
+
+                <div id="item-price9" class="price"></div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity9"></span>
+
+                <br>
+            </div>
+            <div class="col-md p-3" id="change">
+                <h3 id="change-header"><i class="fas fa-dollar-sign"></i> Change</h3><br>
+                <textarea class="form-control" type="text" value="Change" rows="2" readonly id="change-text" >Change</textarea><br>
+
+                <button type="button" class="btn btn-secondary btn-sm justify-content-center input-clearer" id="change-return">Change Return</button>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md slot m-1" id="slot10">
+                <div style="text-align: left;" id="number-10">10</div>
+                <div id="item-name10"></div>
+
+                <div class="price" id="item-price10"></div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity10"></span>
+
+                <br>
+            </div>
+            <div class="col-md  slot m-1" id="slot11">
+                <div style="text-align: left;" id="number-11"></div>
+                <div id="item-name11"></div>
+
+                <div class="price" id="item-price11"></div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity11"></span>
+
+                <br>
+            </div>
+            <div class="col-md slot m-1" id="slot12">
+                <div style="text-align: left;" id="number-12"></div>
+                <div id="item-name12"></div>
+
+                <div class="price" id="item-price12"></div>
+                <br>
+                <span class="quantity-remaining">Quantity remaining: </span><span id="item-quantity12"></span>
+
+                <br>
+            </div>
+            <div class="col-md  p-3" id="empty one">
+
+
+            </div>
+        </div>
+
+<hr>
+        <span class="flag-icon flag-icon-kh" id="khmer"></span>
+        <span class="flag-icon flag-icon-gb" id="english"></span>
+    </div>
+
+
+
+</div>
+<br>
+<i class="fas fa-copyright"></i> 2019 Karl Marx Industries, LLC
+
+
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/vendingMachine.js"></script>
+</body>
+</html>

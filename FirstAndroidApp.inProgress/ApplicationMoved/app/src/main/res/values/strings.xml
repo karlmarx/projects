@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">karlMarx</string>
+    <string name="greeting_text">Taiwan #1!</string>
+    <string name="random_heading">Here is a random number between 0 and %1d.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/insert_coin"
+        android:title="Insert Coin"/>
+    <item
+        android:id="@+id/display_items"
+        android:title="Display Items" />
+    <item
+        android:id="@+id/return_change"
+        android:title="Return Change" />
+</menu>

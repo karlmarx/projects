@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+13,Ruth Bader Ginsburg,KY,6.00,Tile,265.00,15.00,25.00,3975.00,6625.00,636.00,11236.00
+14,Jean Luc Picard,OK,4.45,Bamboo,98.00,35.00,12.50,3430.00,1225.00,186.20,4841.20
+15,Jean Luc Picard,KY,6.00,Sheet Plastic,115.00,2.00,0.50,230.00,57.50,17.25,304.75

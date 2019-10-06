@@ -1,0 +1,3 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+26,Jean Luc Picard,TX,4.45,Bamboo,321.00,35.00,12.50,11235.00,4012.50,609.90,15857.40
+27,Bob,TX,4.45,Sheet Plastic,168.00,2.00,0.50,336.00,84.00,16.80,436.80
