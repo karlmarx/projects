@@ -1,0 +1,4 @@
+#Mon Oct 07 08:42:03 EDT 2019
+base.0=/Users/karlmarx/Desktop/repos/projects/FirstAndroidApp.inProgress/VendingMachine/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

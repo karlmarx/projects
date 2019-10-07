@@ -7,6 +7,9 @@
         android:title="insert money">
         <menu>
             <item
+                android:id="@+id/dollar"
+                android:title="dollar" />
+            <item
                 android:id="@+id/quarter"
                 android:title="quarter" />
             <item
@@ -15,9 +18,6 @@
             <item
                 android:id="@+id/dime"
                 android:title="dime" />
-            <item
-                android:id="@+id/dollar"
-                android:title="dollar" />
         </menu>
     </item>
     <item
@@ -27,7 +27,4 @@
         android:id="@+id/return_change"
         android:checkable="false"
         android:title="return change" />
-    <item
-        android:id="@+id/purchase_item"
-        android:title="purchase item" />
 </menu>
